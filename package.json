@@ -1,0 +1,18 @@
+{
+  "name": "hellsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass publics/sass/main.scss publics/css/style.css"
+  },
+  "author": "Mr.Loser",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

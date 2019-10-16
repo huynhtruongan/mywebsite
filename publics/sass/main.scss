@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    background: url('https://images.wallpaperscraft.com/image/child_river_dreams_127495_3840x2400.jpg');
+    background-size: cover;
+    background-position: top;
+    h1{
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Modak', cursive;
+        text-align: center;
+        #landing-title-main{
+            font-size: 420%;
+            background-color: rgb(243, 109, 56);
+            color: white;
+
+        }
+        #landing-title-sub{
+            font-size: 320%;
+            color: rgb(243, 109, 56);
+            text-shadow: lightcyan 3px 3px;
+        }
+    }
+}
